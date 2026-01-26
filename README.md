@@ -245,24 +245,6 @@ curl http://localhost:8080/v1/chat/completions \
 
 
 
----
-
-## 👨‍💻 Руководство Разработчика (Release Process)
-
-При выпуске новой версии необходимо обновить версию в следующих файлах:
-
-1. `package.json` (`version`)
-2. `src-tauri/tauri.conf.json` (`version`)
-3. `src-tauri/Cargo.toml` (`version`)
-4. `src/pages/Settings.tsx` (вкладка 'About' -> `vX.X.X`)
-5. `CHANGELOG.md` (добавить новую секцию)
-6. `public-repo-files/README.md` (секция 'Последние изменения' и бейджи если статичны)
-
-После обновления всех файлов:
-1. `git add .`
-2. `git commit -m "chore: release vX.X.X"`
-3. `git tag vX.X.X`
-4. `git push origin main --tags`
 
 ---
 
