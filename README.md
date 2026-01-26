@@ -74,7 +74,7 @@
    - Откройте **Системные настройки** → **Конфиденциальность и безопасность**
    - Нажмите **"Разрешить"** рядом с Antigravity Login
    
-     ![Gatekeeper](https://lh3.googleusercontent.com/gg/AMW1TPp0JZG-Tc32vjwVg2YNwCr5OczHhgXUyu1mlZwnm4eIMr1Kmj4HI-5p9f-raJGwff3MOvMl1BF0R6aaUAzY_TJpEo9TsDbot-pokzBBdEZFUCGBPVORaiohS5YbqYNoX1lMElCGICy9y4xHh2oHEfnDeGZd0N4ZIhrXf4II-JJEgkK0nH0=s1024-rj-mp2)
+     ![Gatekeeper](images/macscreen.png)
 
    - Или: Ctrl+Click на приложении → **Открыть**
 
@@ -86,7 +86,7 @@
    - Нажмите **"Подробнее"**
    - Выберите **"Выполнить в любом случае"**
 
-   ![SmartScreen](https://lh3.googleusercontent.com/gg/AMW1TPoHg3Zjqc0P0Pvff3yxYF7WPlVRmfGIS87tq-1S0zGfOS1KALBmkuEMko-aP71K1-G5uR0EI3WaH2DDfdvza2zN8xcrnKyxvsnlw5lUbjtw5V4lbshqFUlb6i0Z67LGLDwSFVzNwx4oXIb4-1VOGl_0oegsg6_-g-Y2JKTpW-pDoOsm8Wvt=s1024-rj-mp2)
+   ![SmartScreen](images/winscreen.png)
 
 ---
 
@@ -225,6 +225,14 @@ curl http://localhost:8080/v1/chat/completions \
 ---
 
 ## 📝 Последние изменения
+
+### Версия 1.0.5 (2026-01-26)
+
+- ✅ **Улучшение управления тегами** - Добавлена система автоподстановки тегов
+  - При добавлении тега теперь предлагаются уже существующие теги из других аккаунтов
+  - Удобный выбор из списка "Доступные теги"
+  - Предотвращение дублирования и опечаток
+  - Быстрое добавление кликом
 
 ### Развернутое окно при запуске (2026-01-25)
 
