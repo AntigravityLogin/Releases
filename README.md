@@ -7,7 +7,7 @@
   <p>
     <img src="https://img.shields.io/github/v/release/AntigravityLogin/Releases?style=flat-square" alt="Version">
     <img src="https://img.shields.io/github/downloads/AntigravityLogin/Releases/total?style=flat-square" alt="Downloads">
-    <img src="https://img.shields.io/badge/Version-1.0.10-blue?style=flat-square" alt="Version">
+    <img src="https://img.shields.io/badge/Version-1.0.12-blue?style=flat-square" alt="Version">
     <img src="https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-lightgrey?style=flat-square" alt="License">
   </p>
 </div>
@@ -30,7 +30,7 @@
 
 ## 💾 Скачать
 
-### Последняя версия: v1.0.10
+### Последняя версия: v1.0.12
 
 <table>
   <tr>
@@ -216,6 +216,15 @@ curl http://localhost:8080/v1/chat/completions \
 
 
 ---
+
+### Версия 1.0.12 (2026-01-29)
+
+- 🐛 **TypeScript** - Исправлена критическая ошибка в Settings.tsx для успешной сборки релиза.
+
+### Версия 1.0.11 (2026-01-29)
+
+- 📱 **Telegram** - Улучшенное управление уведомлениями с переключателем и тестовой кнопкой.
+- 🌍 **Локализация** - Добавлены переводы для настроек HTTP API.
 
 ### Версия 1.0.10 (2026-01-28)
 
